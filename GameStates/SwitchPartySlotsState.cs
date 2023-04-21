@@ -47,7 +47,7 @@ public class SwitchPartySlotsState : State<GameController>
         }
         else
         {
-            Debug.Log("U can't select the same Pokémon");
+            Debug.Log("U can't select the same PokÃ©mon");
             gc.StateMachine.Pop();
         }
     }
